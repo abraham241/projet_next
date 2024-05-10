@@ -37,9 +37,7 @@ export default function Home() {
         <div className="">
           <p className="font-bold text-6xl">
             Build Your Landing Page <br /> With{" "}
-            <span className="underline underline-green-500 border-b-3 border-green-400">
-              Bootstlander
-            </span>
+            <span className="border-b-4 border-green-400">Bootstlander</span>
           </p>
 
           <p className="text-2xl font-bold py-5">
@@ -57,16 +55,16 @@ export default function Home() {
       {/* section hero */}
 
       {/* section 2 */}
-      <div className="py-10 flex gap-10  px-20">
-        <div className="w-1/2">
+      <div className="flex-col md:flex-row lg:flex-row xl:flex-row justify-center items-center py-10 flex gap-10 px-5">
+        <div className="">
           <Image src={about} alt="Picture of the author" className="" />
         </div>
         <div className="">
           <div>
-            <h1 className="text-2xl font-bold">
+            <h1 className="text-3xl font-bold text-blue-900">
               Enim quis est voluptatibus aliquid <br /> consequatur fugiat
             </h1>
-            <p>
+            <p className="pt-5 pb-10">
               Esse voluptas cumque vel exercitationem. Reiciendis est hic
               accusamus. Non ipsam et sed <br /> minima temporibus laudantium.
               Soluta voluptate sed facere corporis dolores excepturi. <br />
@@ -76,7 +74,7 @@ export default function Home() {
           </div>
           <div className="">
             <div className="flex gap-5 py-3">
-              <div className="border-2 rounded-full h-14 w-14 p-2 text-green-400 flex justify-center items-center">
+              <div className="border-2 border-green-400 rounded-full h-14 w-14 p-2 text-green-400 flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="35"
@@ -93,20 +91,19 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h1 className="font-bold">Lorem Ipsum</h1>
+                <h1 className="font-bold text-xl">Lorem Ipsum</h1>
                 <p className="text-sm">
                   Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint  occaecati  cupiditate non
-                  provident
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
               </div>
             </div>
-            <div className="flex gap-5 py-3">
-              <div className="border-2 rounded-full h-14 w-14 p-2 text-green-400 flex justify-center items-center">
+            <div className="flex gap-5 py-10">
+              <div className="border-2 border-green-400 rounded-full h-14 w-14 p-2 text-green-400 flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
+                  width="100"
+                  height="100"
                   fill="currentColor"
                   class="bi bi-gift"
                   viewBox="0 0 16 16"
@@ -115,7 +112,7 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h1 className="font-bold">Lorem Ipsum</h1>
+                <h1 className="font-bold text-xl">Lorem Ipsum</h1>
                 <p>
                   Voluptatum deleniti atque corrupti quos dolores et quas
                   molestias excepturi sint occaecati <br /> cupiditate non
@@ -124,7 +121,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-5 py-3">
-              <div className="border-2 rounded-full h-14 w-14 p-2 text-green-400 flex justify-center items-center">
+              <div className="border-2 border-green-400 hover:bg-green-400 hover:text-white rounded-full h-14 w-14 p-2 text-green-400 flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="35"
@@ -137,11 +134,10 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h1 className="font-bold">Lorem Ipsum</h1>
+                <h1 className="font-bold text-xl">Lorem Ipsum</h1>
                 <p className="">
                   Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati  cupiditate non
-                  provident
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
               </div>
             </div>
@@ -152,18 +148,213 @@ export default function Home() {
       </div>
       {/* section 2 */}
 
-      <script
-        type="module"
-        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-      >
-        {" "}
-      </script>
-      <script
-        nomodule
-        src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-      >
-        {" "}
-      </script>
+      {/* section 3 */}
+      <div className="py-10 px-20">
+        <div>
+          {/* ==================Featurs============= */}
+          <div>
+            <div className="flex w-44 h-16 gap-3 justify-center items-center text-slate-400">
+              <p>FEATUES</p>
+              <div className="border-b border-green-400 w-20"></div>
+            </div>
+            {/* titre  */}
+            <div className="text-4xl font-bold text-blue-900">CHECK THE FEATURES</div>
+            {/* titre  */}
+          </div>
+        </div>
+        {/* ======================================les card========================== */}
+        <div className="py-16">
+          <div className="flex-col gap-5 flex md:flex-row lg:flex-row xl:flex-row justify-between">
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-amber-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-blue-200">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-red-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-purple-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+          </div>
+          <div className="flex-col gap-5 flex md:flex-row lg:flex-row xl:flex-row justify-between py-5">
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-cyan-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-rose-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-cyan-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-sky-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+          </div>
+          <div className="flex-col gap-5 flex md:flex-row lg:flex-row xl:flex-row justify-between">
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-amber-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-violet-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-orange-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-green-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-archive-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z" />
+              </svg>
+              <p className="font-bold text-blue-900">
+                Lorem Ipsum
+              </p>
+            </div>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      {/* section 3 */}
     </main>
   );
 }
