@@ -3,6 +3,7 @@ import Link from "next/link";
 import heroimg from "../public/images/heroimg.png";
 import about from "../public/images/about.png";
 import details1 from "../public/images/details1.png";
+import details2 from "../public/images/details2.png";
 
 export default function Home() {
   return (
@@ -414,6 +415,27 @@ export default function Home() {
         </div>
       </div>
       {/* Section 5 */}
+      {/* Section 6 */}
+      <div className="flex-col flex justify-between gap-2 md:flex-row lg:flex-row xl:flex-row px-20 py-16">
+        <div className="">
+          <h1 className="text-3xl font-medium text-blue-900">
+            Corporis temporibus maiores provident
+          </h1><br/>
+          <p className="italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br/>  dolore magna aliqua.
+          </p><br/>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br/> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <br/> proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+          </p><br/>
+          <p>
+            Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos <br/> autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est <br/> nisi esse. Saepe aut dignissimos distinctio id enim.
+          </p>
+        </div>
+        <div>
+          <Image src={details2} alt="Picture of the author" className="w-80"/>
+        </div>
+      </div>
+      {/* Section 6 */}
     </main>
   );
 }
