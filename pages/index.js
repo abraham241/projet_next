@@ -165,7 +165,7 @@ export default function Home() {
         {/* ======================================les card========================== */}
         <div className="py-16">
           <div className="flex-col gap-5 flex md:flex-row lg:flex-row xl:flex-row justify-between">
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-amber-400">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-amber-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -180,7 +180,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-blue-200">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-blue-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -195,7 +195,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-red-500">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-red-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -210,7 +210,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-purple-500">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-purple-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -227,7 +227,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-col gap-5 flex md:flex-row lg:flex-row xl:flex-row justify-between py-5">
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-cyan-400">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-cyan-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -242,7 +242,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-rose-400">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-rose-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -257,7 +257,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-cyan-400">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-cyan-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -272,7 +272,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-sky-600">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-sky-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -289,7 +289,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-col gap-5 flex md:flex-row lg:flex-row xl:flex-row justify-between">
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-amber-800">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-amber-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -304,7 +304,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-violet-500">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-violet-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -319,7 +319,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-orange-600">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-orange-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -334,7 +334,7 @@ export default function Home() {
                 Lorem Ipsum
               </p>
             </div>
-            <div className="flex gap-2 justify-center items-center h-14 w-64 bg-slate-100 text-green-400">
+            <div className="flex gap-2 justify-center items-center w-full h-14 md:w-64 bg-slate-100 text-green-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -350,11 +350,34 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div></div>
-          <div></div>
         </div>
       </div>
       {/* section 3 */}
+
+      {/* section 4 */}
+      <div className="bg-slate-100 py-16 flex flex-col gap-10 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row  justify-between  px-20">
+        <div class="w-full  h-32 md:w-60  flex flex-col bg-white justify-center items-center relative">
+          <div class="h-12 w-12 rounded-full bg-green-500 absolute bottom-[105px] left-1/2 transform -translate-x-1/2"></div>
+          <p class="font-bold text-3xl">232</p>
+          <p class="leading-9">Happy Clients</p>
+        </div>
+        <div className="w-full  h-32 md:w-60 flex flex-col bg-white justify-center items-center relative">
+          <div class="h-12 w-12 rounded-full bg-green-500 absolute bottom-[105px] left-1/2 transform -translate-x-1/2"></div>
+          <p className="font-bold text-3xl">521</p>
+          <p className="leading-9">Projects</p>
+        </div>
+        <div className="w-full  h-32 md:w-60 flex flex-col bg-white justify-center items-center relative">
+          <div class="h-12 w-12 rounded-full bg-green-500 absolute bottom-[105px] left-1/2 transform -translate-x-1/2"></div>
+          <p className="font-bold text-3xl">1463</p>
+          <p className="leading-9">Hours Of Support</p>
+        </div>
+        <div className="w-full  h-32 md:w-60 flex flex-col bg-white justify-center items-center relative">
+          <div class="h-12 w-12 rounded-full bg-green-500 absolute bottom-[105px] left-1/2 transform -translate-x-1/2"></div>
+          <p className="font-bold text-3xl">15</p>
+          <p className="leading-9">Hard Workers</p>
+        </div>
+      </div>
+      {/* section 4 */}
     </main>
   );
 }
