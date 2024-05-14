@@ -4,6 +4,14 @@ import heroimg from "../public/images/heroimg.png";
 import about from "../public/images/about.png";
 import details1 from "../public/images/details1.png";
 import details2 from "../public/images/details2.png";
+import gallery1 from "../public/images/gallery1.jpg";
+import gallery2 from "../public/images/gallery2.jpg";
+import gallery3 from "../public/images/gallery3.jpg";
+import gallery4 from "../public/images/gallery4.jpg";
+import gallery5 from "../public/images/gallery5.jpg";
+import gallery6 from "../public/images/gallery6.jpg";
+import gallery7 from "../public/images/gallery7.jpg";
+import gallery8 from "../public/images/gallery8.jpg";
 
 export default function Home() {
   return (
@@ -435,6 +443,36 @@ export default function Home() {
           <Image src={details2} alt="Picture of the author" className="w-80"/>
         </div>
       </div>
+      {/* Section 6 */}
+      <div className="px-16">
+          {/* ==================Gallery============= */}
+          <div className="pb-7">
+            <div className="flex w-44 h-16 gap-3 justify-center items-center text-slate-400">
+              <p>GALLERY</p>
+              <div className="border-b border-green-400 w-20"></div>
+            </div>
+            {/* titre  */}
+            <div className="text-4xl font-bold text-blue-900">
+              CHECK OUR GALLERY
+            </div>
+            {/* titre  */}
+          </div>
+          {/* les photos */}
+          <div className="">
+            <div className="flex-col flex justify-between gap-1 md:flex-row lg:flex-row xl:flex-row ">
+              <Image src={gallery1} alt="Picture of the author" className="w-72"/>
+              <Image src={gallery2} alt="Picture of the author" className="w-72"/>
+              <Image src={gallery3} alt="Picture of the author" className="w-72"/>
+              <Image src={gallery4} alt="Picture of the author" className="w-72"/>
+            </div>
+            <div className="flex-col flex justify-between gap-1 md:flex-row lg:flex-row xl:flex-row  pt-2">
+              <Image src={gallery5} alt="Picture of the author" className="w-72"/>
+              <Image src={gallery6} alt="Picture of the author" className="w-72"/>
+              <Image src={gallery7} alt="Picture of the author" className="w-72"/>
+              <Image src={gallery8} alt="Picture of the author" className="w-72"/>
+            </div>
+          </div>
+        </div>
       {/* Section 6 */}
     </main>
   );
